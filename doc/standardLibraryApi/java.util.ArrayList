@@ -1,0 +1,43 @@
+java.util.ArrayList<E>  1.2
+---------------------------
+
+1、ArrayList<E>()
+
+构造一个空数组列表
+
+2、ArrayList<E>(int initialCapacity)
+
+构造一个有指定容量的空数组列表
+
+3、boolean add(E obj)
+
+在数组列表的末尾追加obj。总是返回true。
+
+4、int size()
+
+返回当前存储在数组列表中的元素个数。
+
+5、void ensureCapacity(int capacity)
+
+确保数组列表在不重新分配内部存储数组的情况下，有足够的容量存储给定数量的元素。
+
+6、void trimToSize()
+
+将数组列表的存储容量削减到期当前大小。
+
+7、E set(int index, E obj)
+
+将值obj放置在数组列表的指定索引位置，返回之前的内容。
+
+8、E get(int index)
+
+得到指定索引位置存储的值。
+
+9、void add(int index, E obj)
+
+后移元素从而将obj插入指定索引位置。
+
+10、E remove(int index)
+
+删除指定索引位置的元素，并将后面的所有元素前移。返回删除的元素。
+
