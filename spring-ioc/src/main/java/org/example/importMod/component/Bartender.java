@@ -5,7 +5,7 @@ package org.example.importMod.component;
  */
 public class Bartender {
 
-    private String name;
+    private final String name;
 
     public Bartender(String name) {
         this.name = name;
