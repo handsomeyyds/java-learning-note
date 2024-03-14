@@ -10,6 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="base" target="11" />
       <module name="spring-event" target="1.8" />
     </bytecodeTargetLevel>
   </component>

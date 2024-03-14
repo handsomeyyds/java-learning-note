@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Conditional;
 import java.lang.annotation.*;
 
 /**
- * 可以直接用标注 Boss.class
+ * 可以直接用标注 @ConditionalOnBean(Boss.class)
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
